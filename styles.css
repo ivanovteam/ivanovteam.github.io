@@ -1,0 +1,90 @@
+body {
+  background: #f1f1f1;
+}
+
+.nav {
+  background: rgb(156, 243, 156);
+  font: black;
+  padding-bottom: 10px;
+}
+
+.navbar { 
+  list-style-type: none; 
+}
+
+.page-header{
+  padding-top: 100px;
+  
+
+  
+}
+.lead{
+  text-align:left;
+  text-indent:50px;
+  /* padding-inline-start: 100px; */
+  /* padding-top: 50px;  */
+
+  padding-right: 50px;
+}
+.col-md-8 {
+  /* height: 100px; */
+  padding-top: 40px;
+  /* background: #cdcdcdf5; */
+  align-items: center;
+  border-inline-end-style:ridge;
+
+}
+
+.col-md-6{
+padding-bottom: 10px;
+}
+
+p{
+  
+  padding-inline-start: 100px;
+  padding-top: 50px;
+  padding-right: 50px;
+}
+h2{
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+h3{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+h4{
+  padding-left: 100px;
+}
+
+.aligncenter {
+    text-align: center;
+}
+
+
+
+
+@media  (max-width: 959px){
+  /*most of the adjustment and resising are done automatically by Bootstrap */
+  /* the following below are adjusting the image sizes and the main titles  */
+  img{
+    width: 60%;
+    height: 80%;
+  }
+  h1{
+    font-size: 25px;
+  }
+  h2{
+    font-size: 20px;
+  }
+  h3{
+      font-size: 20px;
+    }
+  h4{
+    font-size: 15px;
+  }
+  p{
+    font-size: small;
+   
+  }
+}
